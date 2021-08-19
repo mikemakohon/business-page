@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <script src="scripts/app.js" defer></script>
+    <title>Business Card</title>
+  </head>
+  <body>
+    <!-- Header -->
+    <header id="header" class="header">
+      <div class="container">
+        <div class="row">
+          <div class="column">
+            <a href="#" class="logo text-color-primary">Business Card</a>
+          </div>
+          <div class="column">
+            <button class="text-color-primary button-toggler menu-open"
+              >|||</button
+            >
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Presentation -->
+    <section id="header-open" class="menu">
+      <div class="header">
+        <div class="container">
+          <div class="row button-toggler-position">
+            <button class="text-color-primary button-toggler menu-close">|||</button>
+          </div>
+        </div>  
+      </div>
+      <div class="column column-centered">
+        <img src="./images/my_photo.jfif" alt="photo" class="photo" />
+        <h4 class="greetings text-color-secondary">
+          Hello, I'm Mykhailo <span class="text-white-bold">Makohon</span>
+        </h4>
+        <p class="contact text-color-secondary">
+          Trainee Frontend Developer, former Project Manager. Currently, I am
+          enthusiastically learning FE technologies to get a development role as
+          soon as possible.
+        </p>
+        <p class="contact text-color-primary">
+          In case of having additional questions, use the following link to
+          <a
+            href="mailto:mike.makogon@gmail.com"
+            class="text-color-links text-underlined"
+            >contact me</a
+          >
+        </p>
+
+        <div class="skillset">
+          <dl>
+            <div class="skill">
+              <dt class="skill-subtitle">English</dt>
+              <div class="skill-progress">
+                <div
+                  class="skill-progress-marker skill-progress-marker-1"
+                  style="width: 90%"
+                ></div>
+              </div>
+              <dd class="skill-percentage">90%</dd>
+            </div>
+            <div class="skill">
+              <dt class="skill-subtitle">JavaScript</dt>
+              <div class="skill-progress">
+                <div
+                  class="skill-progress-marker skill-progress-marker-2"
+                  style="width: 30%"
+                ></div>
+              </div>
+              <dd class="skill-percentage">30%</dd>
+            </div>
+            <div class="skill">
+              <dt class="skill-subtitle">HTML/CSS</dt>
+              <div class="skill-progress">
+                <div
+                  class="skill-progress-marker skill-progress-marker-3"
+                  style="width: 60%"
+                ></div>
+              </div>
+              <dd class="skill-percentage">60%</dd>
+            </div>
+          </dl>
+        </div>
+
+        <div class="work-experience">
+          <div class="work-position">
+            <h4 class="work-years">2018 - 2019</h4>
+            <h5 class="work-role">
+              IT Project Manager<span class="space-line text-color-links"
+                >| Noosphere</span
+              >
+            </h5>
+          </div>
+          <div class="work-position side-borders">
+            <h4 class="work-years">2019 - 2021</h4>
+            <h5 class="work-role">
+              IT Project Manager<span class="space-line text-color-links"
+                >| Uinno</span
+              >
+            </h5>
+          </div>
+          <div class="work-position">
+            <h4 class="work-years">2021 - Present</h4>
+            <h5 class="work-role">
+              Trainee Web Developer<span class="space-line text-color-links"
+                >| IT Knights Club</span
+              >
+            </h5>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section Introduction -->
+    <section class="introduction">
+      <div class="container">
+        <div class="row row-flex-start">
+          <div class="column">
+            <h2 class="title text-color-primary">Hello,</h2>
+            <p class="text-color-secondary">
+              I am a Trainee Frontend Developer - Advanced written/spoken
+              English, IT Project Management Experience. Open for new
+              opportunities.
+            </p>
+          </div>
+          <div class="column"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Article Grid -->
+    <section id="articles">
+      <div class="container">
+        <div class="article-grid">
+          <a class="article article-img" href="#"></a>
+          <a class="article article-img" href="#"></a>
+          <a class="article article-img" href="#"></a>
+          <a class="article article-img" href="#"></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="column column-centered">
+        <p class="load text-color-primary">Loading</p>
+        <img
+          class="picture-phone img-center"
+          src="./images/phone.jpg"
+          alt="Telephone"
+        />
+        <p class="telephone text-color-primary">+38-(096)-388-31-60</p>
+        <p class="contact text-color-secondary">
+          The communication via Telegram is preferred. You can also reach out
+          using the following email -
+          <a class="text-color-links" href="mailto:mike.makogon@gmail.com"
+            >mike.makogon@gmail.com</a
+          >
+        </p>
+        <div class="social">
+          <a href="https://github.com/mikemakohon" target="_blank">Github</a>
+          <a href="https://www.linkedin.com/in/mykhailo-makohon/" target="_blank">LinkedIn</a>
+        </div>
+        <img class="picture-line" src="./images/line.jpg" alt="line" />
+      </div>
+    </footer>
+  </body>
+</html>
