@@ -305,6 +305,26 @@ a.article-img:nth-child(4n + 4) {
 
 /* Media */
 @media (max-width: 1010px) {
+  .logo {
+    font-size: 16px;
+  }
+
+  .title {
+    font-size: 58px;
+  }
+
+  .telephone {
+    font-size: 28px;
+  }
+
+  div.social {
+    display: flex;
+  }
+
+  .greetings {
+    font-size: 20px;
+  }
+
   .work-experience {
     display: flex;
     flex-direction: column;
